@@ -1,0 +1,23 @@
+{
+  "name": "prime-tables",
+  "version": "1.0.0",
+  "description": "generate primes multiplication table",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmitrykvochkin/prime-tables.git"
+  },
+  "author": "dmitrykvochkin.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dmitrykvochkin/prime-tables/issues"
+  },
+  "homepage": "https://github.com/dmitrykvochkin/prime-tables#readme"
+}
