@@ -8,7 +8,8 @@
     "test": "test"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "benchmark": "node ./benchmark/benchmark.js"
   },
   "repository": {
     "type": "git",
@@ -19,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/dmitrykvochkin/prime-tables/issues"
   },
-  "homepage": "https://github.com/dmitrykvochkin/prime-tables#readme"
+  "homepage": "https://github.com/dmitrykvochkin/prime-tables#readme",
+  "devDependencies": {
+    "benchmark": "^2.1.4",
+    "mocha": "^5.2.0"
+  }
 }
