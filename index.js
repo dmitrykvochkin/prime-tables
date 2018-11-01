@@ -15,3 +15,6 @@ if(
 const n = argv['n'];
 
 console.log(`Calling primes table with n=${n}`);
+
+const matrix = lib.generateMatrix(n);
+console.log(matrix);

@@ -16,4 +16,17 @@ describe('Primes', function() {
         assert.deepEqual(arr, [2,3,5,7,11,13,17,19,23, 29]);
     });
   });
+
+  describe('#generateMatrix()', function() {
+    it('should generate multiplication table of N primes', function() {
+        const matrix = lib.generateMatrix(3);
+
+        assert.deepEqual(matrix, [ 
+          [ '', 2, 3, 5 ],
+          [ 2, 4, 6, 10 ],
+          [ 3, 6, 9, 15 ],
+          [ 5, 10, 15, 25 ] 
+        ]);
+    });
+  });
 });
