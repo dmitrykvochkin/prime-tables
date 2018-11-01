@@ -11,6 +11,15 @@ $ npm install
 $ node index.js --n=10
 ```
 
+### Testing
+```sh
+$ npm test
+```
+### Benchmarking
+```sh
+$ npm run benchmark
+```
+
 ### Pleased with:
 - Got to write a generator function (you don't get to do that every day :) ).
 - Nice example using of benchmark library. 
